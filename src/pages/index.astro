@@ -1,11 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import dog from "../images/dog.jpg";
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
 		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+		<img src={dog} alt="">
 		<p class="instructions">
 			This is test-page for CD/CI.This is test-page for CD/CI.This is test-page for CD/CI.This is test-page for CD/CI.
 			To get started, open the directory <code>src/pages</code> in your project.<br />
