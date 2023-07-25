@@ -2,5 +2,5 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    base: 'webson.site/deploy/test'
+    base: 'webson.site/deploy-test'
 });
